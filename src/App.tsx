@@ -16,6 +16,9 @@ const globalStyles = globalCss({
   body: {
     fontFamily: "Poppins, Arial, Helvetica, sans-serif",
   },
+  "*": {
+    outline: "none",
+  },
 });
 
 function App() {
